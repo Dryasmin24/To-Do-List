@@ -19,7 +19,7 @@ addBtn.addEventListener("click", function createNewTask(){
 
     // creating 3 icons => chat gpt
     let checkBtn = document.createElement("i");
-    checkBtn.classList.add("fa-solid", "fa-circle-check", "check");
+    checkBtn.classList.add("fa-solid", "fa-circle-check", "check", "icn");
     checkBtn.addEventListener("click", function (){
 
         // Reset sound to the beginning & handle error => chat gpt
@@ -37,7 +37,7 @@ addBtn.addEventListener("click", function createNewTask(){
     });
     
     let editBtn = document.createElement("i"); // chat gpt
-    editBtn.classList.add("fa-solid", "fa-pen", "edit"); // chat gpt
+    editBtn.classList.add("fa-solid", "fa-pen", "edit", "icn"); // chat gpt
     editBtn.addEventListener("click", function (){ // chat gpt
         checkSound.currentTime = 0;
         checkSound.play().catch(error => console.error("Audio play error:", error));
@@ -48,7 +48,7 @@ addBtn.addEventListener("click", function createNewTask(){
         }
     });
     let deleteBtn = document.createElement("i"); // chat gpt
-    deleteBtn.classList.add("fa-solid", "fa-trash-can", "delete"); // chat gpt
+    deleteBtn.classList.add("fa-solid", "fa-trash-can", "delete", "icn"); // chat gpt
     deleteBtn.addEventListener("click", function (){ // chat gpt
         checkSound.currentTime = 0;
         checkSound.play().catch(error => console.error("Audio play error:", error));
