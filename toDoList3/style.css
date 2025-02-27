@@ -95,7 +95,7 @@ nav h1{
 .option:active{
     box-shadow: none;
 }
-@media (max-width: 700px){
+@media (max-width: 730px){
     .main{
         margin-top: 5vh;
         width: 85%;
